@@ -16,6 +16,12 @@ import { SigninComponent } from './user/signin/signin.component';
 import { HomeComponent } from './home/home.component';
 import { appRoutes } from './routes';
 import { MatSliderModule } from '@angular/material/slider';
+import { AdminPanelComponent } from './admin-panel/admin-panel.component';
+import { ForbiddenComponent } from './forbidden/forbidden.component';
+import { ProfileComponent } from './profile/profile.component';
+import { RestaurantsComponent } from './restaurants/restaurants.component';
+import { RestaurantListComponent } from './admin-panel/restaurant-list/restaurant-list.component';
+import { RestaurantComponent } from './admin-panel/restaurant/restaurant.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +29,13 @@ import { MatSliderModule } from '@angular/material/slider';
     SignupComponent,
     UserComponent,
     SigninComponent,
-    HomeComponent
+    HomeComponent,
+    AdminPanelComponent,
+    ForbiddenComponent,
+    ProfileComponent,
+    RestaurantsComponent,
+    RestaurantListComponent,
+    RestaurantComponent
   ],
   imports: [
     BrowserModule,
